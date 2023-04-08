@@ -6,11 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.react-calendar-heatmap .color-empty {
+  fill: #a60e0e;
 }
 
 .App-header {
